@@ -65,3 +65,145 @@ a {
     margin: 100px 0 0 0;
     border-spacing: 20px;
 }
+
+#hey {
+    width: 424px;
+    height: 116px;
+    left: calc(50% - 424px/2 - 8px);
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0C1014;
+
+}
+
+#welcome_message {
+    position: absolute;
+    width: 500px;
+    height: 72px;
+    left: 0px;
+    top: 147px;
+    /* Text md/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    /* Networx - Black */
+    color: #000000;
+}
+
+#logo {
+    position: absolute;
+    left: 49.12%;
+    right: -16.18%;
+    top: -3.4%;
+    bottom: 63.52%;
+    Fill: Solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    z-index: -5
+}
+
+#social {
+    background: white;
+    color: gray;
+    width: 23px;
+    height: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        border-radius: 0;
+        overflow-x: hidden;
+    }
+
+    #bold {
+        width: 100%;
+        text-align: center;
+    }
+
+    #regular {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #hey {
+        text-align: center;
+    }
+
+    #welcome_message {
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #logo {
+        top: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        width: 90%;
+        height: auto;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #columnone {
+        width: 20%;
+    }
+
+    #bold {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #regular {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #circle {
+        height: 30px;
+        width: 30px;
+        font-size: 1em;
+    }
+
+    #arrow {
+        font-size: 40px;
+    }
+
+    #table {
+        margin: 40px 0 0 0;
+        border-spacing: 10px;
+    }
+
+    #hey {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    #welcome_message {
+        margin-top: 40px;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #logo {
+        left: 42%;
+        top: 10px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
